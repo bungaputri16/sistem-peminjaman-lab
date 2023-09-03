@@ -1,0 +1,1 @@
+<h2>SLUG-NYA= {{ $param1 }} </h2>
