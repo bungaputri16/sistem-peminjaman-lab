@@ -10,6 +10,8 @@
             <div>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="mb-2 mb-lg-0">
+                        <a href="{{ route('dashboard') }}">Dashboard</a>
+
                         <h3 class="mb-0  text-white">Statistik</h3>
                     </div>
 

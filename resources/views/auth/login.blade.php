@@ -33,7 +33,7 @@
                             <p class="mb-6">Please enter your user information.</p>
                         </div>
                         <!-- Form -->
-                        <form action="/login" method="post">
+                        <form action="{{ route('login') }}" method="post">
                             @csrf
                             <!-- Username -->
                             <div class="mb-3">
@@ -60,19 +60,19 @@
                             <div>
                                 <!-- Button -->
                                 <div class="d-grid">
-                                    <button type="submit" class="btn btn-primary">Sign
-                                        in</button>
+                                    <button type="submit" class="btn btn-primary" >
+                                        Sign in</button>
                                 </div>
 
                                 <div class="d-md-flex justify-content-between mt-4">
                                     <div class="mb-2 mb-md-0">
-                                        <a href="sign-up.html" class="fs-5">Create An
-                                            Account </a>
+                                        <a href="sign-up.html" class="fs-5">Create An Account </a>
                                     </div>
+                                        
                                     <div>
+                                      
                                         <a href="{{ ('auth.forgot-password') }}"
-                                            class="text-inherit
-                        fs-5">Forgot your password?</a>
+                                            class="text-inherit fs-5">Forgot your password?</a>
                                     </div>
 
                                 </div>
